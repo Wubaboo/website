@@ -1,0 +1,151 @@
+* {
+  /* --color-light: #f8ede3;
+  --color-med: #dfd3c3;
+  --color-text: #b57491;
+  --color-dark: #85586f; */
+
+  /* --color-text: #f2eee0;
+  --color-med: #c8e6f5;
+  --color-dark: #5ca0d3;
+  --color-light: #5e0a0a; */
+
+  --color-med: #3f4e4f;
+  --color-text: #a27b5c;
+  --color-dark: #2c3639;
+  --color-light: #dcd7c9;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--color-med);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-dark);
+}
+
+.container {
+  height: auto;
+  color: var(--color-dark);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3vh;
+  background: var(--color-light);
+  padding: 2em 0 0 0;
+}
+
+.ambigrams {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em 0 3em 0;
+}
+
+.title {
+  align-self: flex-start;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: -1em 0 2em 0;
+  color: var(--color-text);
+  font-size: 1.25em;
+}
+
+.intro-container {
+  color: var(--color-dark);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.intro {
+  font-size: 36px;
+}
+
+.images-container {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5vh;
+}
+
+.links-row {
+  display: flex;
+  width: 40%;
+  gap: 25%;
+  justify-content: center;
+  margin-top: 1em;
+  padding: 1em 0 0 0;
+}
+
+.link-icon {
+  color: var(--color-dark);
+}
+
+figure {
+  color: var(--color-text);
+}
+
+figcaption {
+  font-size: 1em;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 24px;
+    display: flex;
+    height: auto;
+  }
+
+  .intro-container {
+    padding: 48px;
+  }
+
+  .images-container {
+    width: 80%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ambigrams {
+    width: 90%;
+  }
+
+  .title {
+    align-self: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .images-container {
+    gap: 3em;
+  }
+  .ambigrams {
+    width: 100%;
+  }
+}
