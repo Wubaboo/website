@@ -1,0 +1,36 @@
+.nav-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 0px solid black;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+  min-width: 10em;
+  width: 100%;
+  max-width: 50em;
+  text-decoration: none;
+  color: var(--color-dark);
+}
+
+.nav-card-title {
+  align-self: flex-start;
+  color: var(--color-link);
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
+.nav-card-header {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 0 1em;
+}
+
+.nav-card-contents {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  text-align: start;
+}
