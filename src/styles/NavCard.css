@@ -3,8 +3,7 @@
   flex-direction: column;
   align-items: flex-start;
   border: 0px solid black;
-  background-color: white;
-  opacity: 0.6;
+  background-color: rgba(255, 255, 255, 0.4);
   padding: 1em;
   border-radius: 12px;
   margin-bottom: 3rem;
@@ -17,6 +16,7 @@
 
 .nav-card:hover {
   opacity: 0.9;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .nav-card-title {
