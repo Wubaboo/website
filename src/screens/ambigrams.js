@@ -5,7 +5,7 @@ import ImageInfo from "../data/imageInfo";
 import "../styles/ambigrams.css";
 import BackArrow from "../components/backArrow";
 
-const textColor = "#a27b5c";
+const textColor = "#BBBBBB";
 
 export default function Ambigrams() {
   return (

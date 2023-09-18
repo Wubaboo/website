@@ -9,11 +9,12 @@
   --color-dark: #5ca0d3;
   --color-light: #5e0a0a; */
 
-  --color-med: #3f4e4f;
-  --color-text: #a27b5c;
-  --color-dark: #2c3639;
-  --color-light: #dcd7c9;
+  --color-med: #dddddd;
+  --color-text: #dddddd;
+  --color-dark: #000000;
+  --color-light: #565656;
   --color-link: #3f4e4f;
+  --color-white: #dddddd;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -48,7 +49,7 @@
 }
 
 .intro-container {
-  color: var(--color-dark);
+  color: var(--color-white);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -70,10 +71,10 @@
   height: 40px;
   border-radius: 16px;
   font-size: 2em;
-  color: var(--color-med);
+  color: var(--color-white);
 }
 .link {
-  color: var(--color-link);
+  color: var(--color-dark);
   font-weight: bold;
   text-decoration: none;
   font-size: 2em;
@@ -91,7 +92,7 @@
 }
 
 .link-icon {
-  color: var(--color-dark);
+  color: var(--color-white);
 }
 
 @media (max-width: 1200px) {

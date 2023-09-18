@@ -4,12 +4,12 @@ const cardData = [
     text: (
       <p>
         Here's a collection of memory games that I made (excluding Sequences)
-        with JavaScript and React. My motivation is that Alzheimer's runs in my
-        family. This is my attempt at combatting it. I intend on releasing a
-        mobile app soon!
+        with React. My motivation is that Alzheimer's runs in my family. This is
+        my attempt at combatting it. I've also released a React Native mobile
+        version in the Google Play Store.
       </p>
     ),
-    link: "https://wubaboo.github.io/memory-games",
+    link: "https://play.google.com/store/apps/details?id=com.wubaboo.memoryapp",
     image: (
       <i
         className="fa-solid fa-brain"
@@ -28,7 +28,7 @@ const cardData = [
         It's made with Python, JavaScript, Flask, React, and AWS.
       </p>
     ),
-    link: "https://wubaboo.github.io/ytSheetMusicFront",
+    link: "https://github.com/Wubaboo/ytSheetMusic",
     image: <i className="fa-solid fa-music" style={{ fontSize: "2rem" }}></i>,
   },
   {
