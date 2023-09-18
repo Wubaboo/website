@@ -11,8 +11,7 @@ const images = [
   },
   {
     bold: "Ataraxy:",
-    caption:
-      " a state of serene calmness; free from emotional disturbance and anxiety",
+    caption: " a state of serene calmness; free from anxiety",
     path: process.env.PUBLIC_URL + "/assets/img/ataraxy.png",
   },
   {
