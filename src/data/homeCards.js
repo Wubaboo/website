@@ -3,10 +3,9 @@ const cardData = [
     title: "Memory Games",
     text: (
       <p>
-        Here's a collection of memory games that I made (excluding Sequences)
-        with React. My motivation is that Alzheimer's runs in my family. This is
-        my attempt at combatting it. I've also released a React Native mobile
-        version in the Google Play Store.
+        Here's a collection of memory games that I made in React Native. My
+        motivation is that Alzheimer's runs in my family. This is my attempt at
+        combatting it.
       </p>
     ),
     link: "https://play.google.com/store/apps/details?id=com.wubaboo.memoryapp",
