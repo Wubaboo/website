@@ -23,7 +23,7 @@ export default function Home({}) {
       {cardData.map((card, i) => (
         <NavCard
           key={i}
-          left={i % 2}
+          left={false}
           title={card.title}
           text={card.text}
           link={card.link}
