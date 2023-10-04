@@ -7,7 +7,6 @@
 
 .main-title {
   align-self: flex-start;
-  margin-bottom: 1em;
   display: inline-block;
   font-family: "Inter", "Segoe UI";
   font-size: calc(10px + 3vmin);
@@ -25,44 +24,73 @@
   text-align: start;
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: calc(10px + 1.1vmin);
+  font-size: 24px;
+  font-weight: 100;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  margin-bottom: 20vh;
 }
 
+.intro-text {
+  line-height: 35px;
+}
 .button-row {
-  margin-top: 1.2em;
   width: 100%;
   justify-content: space-between;
   display: flex;
   align-items: center;
+  gap: 16px;
 }
 
 .link-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 3em;
-  height: 3em;
+  width: 2em;
+  height: 2em;
   border-radius: 50%;
   background-color: #9ed3ce;
   text-decoration: none;
-  margin-right: 0.8em;
 }
 
 .circle-icon {
-  font-size: 1.5em;
-  color: #134843;
+  font-size: 1em;
+  color: #00171e;
 }
-
+.icons {
+  display: flex;
+  gap: 16px;
+}
 .resume-button {
   align-items: center;
   background-color: #9ed3ce;
   border-radius: 33px;
-  color: #134843;
+  color: #00171e;
   display: inline-flex;
-  font-size: 0.9em;
-  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  min-height: 2em;
+  font-weight: 600;
   justify-content: center;
-  padding: 1.25em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  padding-left: 2em;
+  padding-right: 2em;
   text-decoration: none;
+  text-align: center;
+}
+
+.projects-header {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+.projects-container {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
