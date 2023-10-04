@@ -1,0 +1,68 @@
+.home-container {
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-title {
+  align-self: flex-start;
+  margin-bottom: 1em;
+  display: inline-block;
+  font-family: "Inter", "Segoe UI";
+  font-size: calc(10px + 3vmin);
+  font-weight: 500;
+  background-image: linear-gradient(90deg, #1b5cfd, #bcdc49);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.intro-container {
+  text-align: start;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: calc(10px + 1.1vmin);
+  width: 100%;
+}
+
+.button-row {
+  margin-top: 1.2em;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.link-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background-color: #9ed3ce;
+  text-decoration: none;
+  margin-right: 0.8em;
+}
+
+.circle-icon {
+  font-size: 1.5em;
+  color: #134843;
+}
+
+.resume-button {
+  align-items: center;
+  background-color: #9ed3ce;
+  border-radius: 33px;
+  color: #134843;
+  display: inline-flex;
+  font-size: 0.9em;
+  font-weight: 700;
+  justify-content: center;
+  padding: 1.25em;
+  text-decoration: none;
+}
