@@ -1,17 +1,18 @@
 import "../styles/Home.css";
 import icons from "../data/icons";
+import ProjectCard from "../components/ProjectCard";
 
 export default function Home() {
   return (
     <div className="home-container">
       <div className="main-title">Hey, I'm Evan.</div>
-      <div className="intro-container">
+      <p className="intro-container">
         In publishing and graphic design, Lorem ipsum is a placeholder text
         commonly used to demonstrate the visual form of a document or a typeface
         without relying on meaningful content. Lorem ipsum may be used as a
         placeholder before final copy is available. Lorem ipsum may be used as a
         placeholder before final copy is available.
-      </div>
+      </p>
       <div className="button-row">
         <div className="icons">
           {icons.map((item, i) => (
@@ -28,6 +29,7 @@ export default function Home() {
           View Full Resume
         </a>
       </div>
+      <ProjectCard></ProjectCard>
     </div>
   );
 }

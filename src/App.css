@@ -1,11 +1,12 @@
 .App {
+  margin: 0;
   box-sizing: border-box;
   text-align: center;
   background-color: #00171e;
   display: "flex";
   min-height: 100vh;
-  padding-left: 25vw;
-  padding-right: 25vw;
+  padding-left: 30vw;
+  padding-right: 30vw;
   padding-top: 10vh;
   padding-bottom: 10vh;
 }
