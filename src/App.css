@@ -10,3 +10,19 @@
   padding-top: 20vh;
   padding-bottom: 10vh;
 }
+
+@media (max-width: 1200px) {
+  .App {
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 10vh;
+  }
+}
+
+@media (max-width: 700px) {
+  .App {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 5vh;
+  }
+}
