@@ -26,3 +26,11 @@
     padding-top: 5vh;
   }
 }
+
+@media (min-width: 2400px) {
+  .App {
+    padding-left: 35vw;
+    padding-right: 35vw;
+    padding-top: 20vh;
+  }
+}
