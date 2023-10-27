@@ -23,4 +23,13 @@ export const projects = [
     link: "https://play.google.com/store/apps/details?id=com.wubaboo.memoryapp",
     image: process.env.PUBLIC_URL + "/assets/img/memory_games.png",
   },
+  {
+    title: "Ambigrams",
+    description:
+      "Ambigram: a calligraphic design that can be viewed from multiple perspectives \nI encountered Ambigrams reading Gödel, Escher, Bach: an Eternal Golden Braid by Douglas Hofstadter",
+    link: "ambigrams/",
+    technologies: [],
+    image: process.env.PUBLIC_URL + "/assets/img/placid.png",
+    style: { aspectRatio: "6/3" },
+  },
 ];

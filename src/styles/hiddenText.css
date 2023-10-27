@@ -1,0 +1,7 @@
+.hidden {
+  border-radius: 4px;
+  display: inline;
+  padding: 0.1em 0.25em;
+  transition: background-color 1.5s, color 2s;
+  cursor: pointer;
+}
