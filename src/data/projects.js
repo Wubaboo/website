@@ -30,6 +30,9 @@ export const projects = [
     link: "ambigrams/",
     technologies: [],
     image: process.env.PUBLIC_URL + "/assets/img/placid.png",
-    style: { aspectRatio: "6/3" },
+    style: {
+      objectFit: "contain",
+      backgroundColor: "rgb(230,230,230)",
+    },
   },
 ];
