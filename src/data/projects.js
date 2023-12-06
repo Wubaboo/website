@@ -5,7 +5,7 @@ export const projects = [
       "I'm currently in the process of developing a mobile party game inspired by the popular board game, Just One. Using AWS Lambda and WebSockets, I'm working to create a scalable, seamless and highly responsive gaming experience. Stay tuned!",
     technologies: ["AWS", "JavaScript", "React Native"],
     link: null,
-    image: process.env.PUBLIC_URL + "/assets/img/only_one.png",
+    image: process.env.PUBLIC_URL + "/assets/img/onlyOne.png",
   },
   {
     title: "YouTube to PDF Generated Sheet Music",
