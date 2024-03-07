@@ -1,8 +1,16 @@
 export const projects = [
   {
-    title: "Coming soon: A Mobile Party Game",
+    title: "ArbHound",
     description:
-      "I'm currently in the process of developing a mobile party game inspired by the popular board game, Just One. Using AWS Lambda and WebSockets, I'm working to create a scalable, seamless and highly responsive gaming experience. Stay tuned!",
+      "Arbhound is a Selenium and BeautifulSoup webscraper that finds profitable arbitrage opportunities and sends notifications to users via Telegram. It currently has 10+ users!",
+    technologies: ["Python", "Selenium", "BeautifulSoup"],
+    link: null,
+    image: process.env.PUBLIC_URL + "/assets/img/arbitrage.png",
+  },
+  {
+    title: "Only One: A Mobile Party Game",
+    description:
+      "A mobile party game inspired by the popular board game, Just One. It uses AWS API Gateway Websockets for real-time connections and AWS Lambda for a serverless and scalable architecture.",
     technologies: ["AWS", "JavaScript", "React Native"],
     link: null,
     image: process.env.PUBLIC_URL + "/assets/img/onlyOne.png",
