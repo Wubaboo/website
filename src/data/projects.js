@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "Book Klüber",
+    description:
+      "Book Klüber is an assistant that simplifies book management and progress tracking for book clubs. I notice during the weeks in between book club sessions, there'd be plenty of things I'd want to discuss, but they'd be forgotten by the time of the session, so this web app also includes a place to discuss the readings asynchronously.",
+    technologies: ["TypeScript", "React", "NextJS", "supabase"],
+    link: "https://kluber.vercel.app",
+    image: process.env.PUBLIC_URL + "/assets/img/kluber.png",
+  },
+  {
     title: "ArbHound",
     description:
       "Arbhound is a Selenium and BeautifulSoup webscraper that finds profitable arbitrage opportunities and sends notifications to users via Telegram. It currently has 10+ users!",
