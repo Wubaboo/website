@@ -14,7 +14,15 @@ export default function ProjectCard({
       <>
         <img className="card-image" src={image} style={styles} />
         <div className="card-content">
-          <div className="card-title">{title}</div>
+          <div className="card-title">
+            {title}
+            {link && link.length > 0 && (
+              <i
+                class="fa-solid fa-arrow-up-right-from-square"
+                style={{ fontSize: "16px" }}
+              ></i>
+            )}
+          </div>
           <p>{description}</p>
           <div className="pill-row">
             {pillItems.map((item) => (
